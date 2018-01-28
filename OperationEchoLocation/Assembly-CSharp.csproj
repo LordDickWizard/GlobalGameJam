@@ -51,7 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FootParticle\PartInstantiateScript.cs" />
+     <Compile Include="Assets\nextlevel2.cs" />
+     <Compile Include="Assets\Scripts\morphAnimation.cs" />
      <Compile Include="Assets\Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Shaders\SonarFx\SonarFx.cs" />
+     <Compile Include="Assets\Shaders\SonarFx\SonarFxSwitcher.cs" />
+     <Compile Include="Assets\SonarFxTest.cs" />
+     <None Include="Assets\Shaders\SonarFx\Shader\SonarFx.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

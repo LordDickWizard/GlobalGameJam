@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 5ce00000713a38e459feeaaebeb9298c
+timeCreated: 1517064214
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: bonearmleft
+    100004: bonearmright
+    100006: Bonechest
+    100008: boneforeaemright
+    100010: boneforeaemright_end
+    100012: boneforearmleft
+    100014: boneforearmleft_end
+    100016: Bonehead
+    100018: Bonehead_end
+    100020: bonehipleft
+    100022: bonehipright
+    100024: boneleftshin
+    100026: boneleftshin_end
+    100028: boneleftthigh
+    100030: Boneneck
+    100032: bonerightshin
+    100034: bonerightshin_end
+    100036: bonerightthigh
+    100038: Boneshoulderleft
+    100040: Boneshoulderright
+    100042: bonewaist
+    100044: manmesh
+    100046: //RootNode
+    400000: Armature
+    400002: bonearmleft
+    400004: bonearmright
+    400006: Bonechest
+    400008: boneforeaemright
+    400010: boneforeaemright_end
+    400012: boneforearmleft
+    400014: boneforearmleft_end
+    400016: Bonehead
+    400018: Bonehead_end
+    400020: bonehipleft
+    400022: bonehipright
+    400024: boneleftshin
+    400026: boneleftshin_end
+    400028: boneleftthigh
+    400030: Boneneck
+    400032: bonerightshin
+    400034: bonerightshin_end
+    400036: bonerightthigh
+    400038: Boneshoulderleft
+    400040: Boneshoulderright
+    400042: bonewaist
+    400044: manmesh
+    400046: //RootNode
+    2100000: No Name
+    4300000: manmesh
+    7400000: stop
+    7400002: run
+    7400004: Armature|manmeshAction
+    7400006: Armature|ArmatureAction
+    7400008: stop
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: manmesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stop
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 25
+      lastFrame: 26
+      wrapMode: 8
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

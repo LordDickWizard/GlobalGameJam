@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class NextLevel : MonoBehaviour
-{	
+{
+    public GameObject player;
 	// Update is called once per frame
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
-            Application.LoadLevel(0);
+        if (other.gameObject.CompareTag("Player"))
+            Application.LoadLevel(1);
+       
     }
 }
